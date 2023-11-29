@@ -25,12 +25,14 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: #FCF5E5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .intro-container{
     width: 80%;
     padding-left: 20px;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .form-group{
@@ -43,6 +45,8 @@ body{
     margin-top: 40px;
     background-color: #FFFFFF;
     padding-left: 20px;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
 }
 
 label {
@@ -54,6 +58,7 @@ label {
     max-width: 30%;
     margin-top: 40px;
     margin-left: 20px;
+    font-size: large;
 }
 
 .logIn{

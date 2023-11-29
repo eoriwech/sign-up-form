@@ -14,7 +14,6 @@ body{
 
 .image-container{
     flex: 35%;
-    position: relative;
 }
 
 #main-image{

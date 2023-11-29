@@ -23,7 +23,11 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-left: 20px;
-    background-color: red;
+    background-color: #FAFAFA;
+}
+
+.intro{
+    width: 80%;
 }
 
 .form-group{
@@ -34,13 +38,19 @@ body{
 
 form{
     margin-top: 40px;
+    background-color: #FFFFFF;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 button{
+    max-width: 20%;
     margin-top: 40px;
+}
+
+.logIn{
+    margin-top: 30px;
 }

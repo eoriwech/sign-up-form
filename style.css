@@ -27,10 +27,11 @@ body{
     position: absolute;
     bottom: 1px;
     color: #FFFFFF;
+    font-size: 10px;
 }
 
 .image-label a{
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .form-container{
@@ -49,12 +50,13 @@ body{
 .form-group{
     display: inline-block;
     margin-bottom: 10px;
-    width: 30%;
+    width: 40%;
 }
 
 #form{
     margin-top: 40px;
     padding-left: 20px;
+    padding-bottom: 20px;
     background-color: #FFFFFF;
     font-family: roboto, sans-serif;
     font-weight: 400;

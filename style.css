@@ -13,13 +13,13 @@ body{
 }
 
 .image-container{
-    flex: 40%;
+    flex: 35%;
     position: relative;
 }
 
 #main-image{
-    max-width: 100%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     object-fit: fill;
 }
 
@@ -34,7 +34,7 @@ body{
 }
 
 .form-container{
-    flex: 60%;
+    flex: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,19 +44,18 @@ body{
 .intro-container{
     width: 80%;
     padding-left: 20px;
-    
 }
 
 .form-group{
     display: inline-block;
     margin-bottom: 10px;
-    width: 48%;
+    width: 30%;
 }
 
 #form{
     margin-top: 40px;
-    background-color: #FFFFFF;
     padding-left: 20px;
+    background-color: #FFFFFF;
     font-family: roboto, sans-serif;
     font-weight: 400;
 }

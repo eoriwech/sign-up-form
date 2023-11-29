@@ -19,5 +19,28 @@ body{
 
 .form-container{
     flex: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
     background-color: red;
+}
+
+.form-group{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 48%;
+}
+
+form{
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button{
+    margin-top: 40px;
 }

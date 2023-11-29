@@ -62,9 +62,14 @@ body{
     font-weight: 400;
 }
 
-label {
+label{
     display: block;
     margin-top: 20px;
+}
+
+input{
+    border-color: #E5E7EB;
+    border-radius: 5px;
 }
 
 #submit-button{

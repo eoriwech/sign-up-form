@@ -64,12 +64,19 @@ body{
 
 label{
     display: block;
+    font-size: 14px;
     margin-top: 20px;
 }
 
 input{
-    border-color: #E5E7EB;
+    border: 1px solid #E5E7EB;
     border-radius: 5px;
+    height: 25px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none; 
 }
 
 #submit-button{
